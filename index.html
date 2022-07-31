@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+<!-- Fonte -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Componente Avaliacão</title>
+</head>
+<body>
+    <div class="caixa-mensagens">
+    <div class="container">
+    <div class="star">
+        <img src="img/icon-star.svg">
+    </div>
+    <h1 class="question">How did we do?</h1>
+    <p class="message">Please, let us know how we did with your support request.
+        All feedback is appreciated to help us improve our offering!</p>
+    <ul>
+        <li class="btn" onclick="avaliacao(this)">
+            1
+        </li>
+        <li class="btn" onclick="avaliacao(this)">
+            2
+        </li>
+        <li class="btn" onclick="avaliacao(this)">
+            3
+        </li>
+        <li class="btn" onclick="avaliacao(this)">
+            4
+        </li>
+        <li class="btn" onclick="avaliacao(this)">
+            5
+        </li>
+    </ul>
+  <button onclick="enviar(this)">Submit</button>
+  </div>
+</div>
+
+<div class="container-pos escondido">
+    <img src="img/illustration-thank-you.svg">
+    <p class="selection">You selected 4 out of 5</p>
+    <h1>Thank you!</h1>
+    <p class="msg-final">We appreciate you taking the time to give a rating. 
+        If you ever need more support, don't hesitate to get in touch!
+    </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

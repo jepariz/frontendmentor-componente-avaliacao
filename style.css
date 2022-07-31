@@ -1,0 +1,152 @@
+/* Tela inicial */
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    background-color: #212832;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+.star{
+    width: 50px;
+    height: 50px;
+    background-color: #272E38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.question{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.message, .msg-final{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 23px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    width: 50px;
+    height: 50px;
+    background-color:  #272E38;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+li:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+} 
+
+button{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 13px;
+    width: 340px;
+    background-color: #FC7613;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    justify-self: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #FC7613;
+}
+
+.btn-selection{
+    background-color:  #FC7613;
+    color: #fff;
+}
+
+
+
+/* Tela pós-avaliacão */
+
+.container-pos{
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    background-color: #212832;
+    border-radius: 35px;
+    box-sizing: border-box;
+    padding: 30px;
+    display: grid;
+    text-align: center;
+}
+
+.container-pos img{
+    justify-self: center;
+}
+
+.selection{
+    font-size: 15px;
+    color: #FC7613;
+    padding: 10px 20px;
+    background-color: #272E38;
+    border-radius: 30px;
+    align-self: center;
+    justify-self: center;
+}
+
+.container-pos h1{
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.escondido{
+    display: none;
+} 
+
+
+@media only screen and (max-width: 376px) {
+    
+    .container{
+        width: 340px;
+        padding: 20px;
+    }
+
+    a{
+        width: 280px;
+    }
+
+    .container-pos{
+        width: 340px;
+        padding: 50px 20px;
+    }
+
+} 
+
