@@ -9,6 +9,7 @@ body{
 
 .container{
     margin-top: 200px;
+    margin-bottom: 100px;
     width: 400px;
     height: 400px;
     background-color: #212832;
@@ -96,6 +97,7 @@ button:hover{
 
 .container-pos{
     margin-top: 200px;
+    margin-bottom: 100px;
     width: 400px;
     height: 400px;
     background-color: #212832;
